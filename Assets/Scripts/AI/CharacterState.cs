@@ -1,6 +1,6 @@
 public abstract class CharacterState
-{
-    public string name;
+{ 
+    public abstract string name { get; }
     public abstract void StateActivity();
     public abstract void OnStateEnter();
     public abstract void OnStateStay();

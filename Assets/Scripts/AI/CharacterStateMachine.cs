@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class CharacterStateMachine : MonoBehaviour
@@ -20,6 +19,8 @@ public class CharacterStateMachine : MonoBehaviour
 
     private void ChangeState(CharacterState state)
     {
+        currentState.OnStateExit();
+        currentState = state;
         state.OnStateEnter();
     }
 
@@ -31,5 +32,6 @@ public class CharacterStateMachine : MonoBehaviour
     void Start()
     {
         currentState = states[0];
+        currentState.OnStateEnter();
     }
 }
