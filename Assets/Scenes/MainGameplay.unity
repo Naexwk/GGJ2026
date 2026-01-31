@@ -119,33 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &309162844 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4501090649585267393, guid: 233612af219bb5443a11aed91e7b93d8, type: 3}
-  m_PrefabInstance: {fileID: 5112871229567051408}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &309162847
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309162844}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9498a64f31880f746b66e61740c249fc, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &667990082
 GameObject:
   m_ObjectHideFlags: 0
@@ -132591,14 +132564,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
-    - target: {fileID: 7535896786761953369, guid: f133fd3e145062545a3cbc744b66757c, type: 3}
-      propertyPath: Music_Clips.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7535896786761953369, guid: f133fd3e145062545a3cbc744b66757c, type: 3}
-      propertyPath: 'Music_Clips.Array.data[1]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 6acf87c6fbb2ac943883c17e19073e4e, type: 3}
     - target: {fileID: 7916652946452358616, guid: f133fd3e145062545a3cbc744b66757c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -132656,26 +132621,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4226326340489539188, guid: 233612af219bb5443a11aed91e7b93d8, type: 3}
-      propertyPath: m_Constraints
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5499675372466128236, guid: 233612af219bb5443a11aed91e7b93d8, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 309162847}
-    - target: {fileID: 6815913837789500136, guid: 233612af219bb5443a11aed91e7b93d8, type: 3}
-      propertyPath: m_Radius
-      value: 0.40937582
-      objectReference: {fileID: 0}
-    - target: {fileID: 6815913837789500136, guid: 233612af219bb5443a11aed91e7b93d8, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.021075306
-      objectReference: {fileID: 0}
-    - target: {fileID: 6815913837789500136, guid: 233612af219bb5443a11aed91e7b93d8, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.0000000025123719
-      objectReference: {fileID: 0}
     - target: {fileID: 7006852458536825278, guid: 233612af219bb5443a11aed91e7b93d8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.45
@@ -132717,14 +132662,9 @@ PrefabInstance:
       value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 6078891921032318920, guid: 233612af219bb5443a11aed91e7b93d8, type: 3}
-    - {fileID: 6237114684216105129, guid: 233612af219bb5443a11aed91e7b93d8, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4501090649585267393, guid: 233612af219bb5443a11aed91e7b93d8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 309162847}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 233612af219bb5443a11aed91e7b93d8, type: 3}
 --- !u!1001 &6056811692684406984
 PrefabInstance:

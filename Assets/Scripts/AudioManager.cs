@@ -44,6 +44,5 @@ public class AudioManager : MonoBehaviour
         Debug.Log($"Playing sound with the following index: {MusicClipID}");
         Music_AudioSource.Stop();
         Music_AudioSource.PlayOneShot(Music_Clips[MusicClipID]);
-        
     }
 }

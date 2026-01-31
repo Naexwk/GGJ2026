@@ -52,6 +52,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 016bcff0205740f41887ee0d75a58999, type: 3}
   Music_Clips:
   - {fileID: 8300000, guid: 669f0766b53e22e47aa2ec625b126c97, type: 3}
+  - {fileID: 8300000, guid: 6acf87c6fbb2ac943883c17e19073e4e, type: 3}
   SFX_AudioSource: {fileID: 6874736857468960750}
   Music_AudioSource: {fileID: 3923215339931535359}
 --- !u!82 &6874736857468960750
@@ -164,7 +165,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.17
   m_Pitch: 1
   Loop: 1
   Mute: 0
