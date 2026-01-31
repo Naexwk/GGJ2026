@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 355863503}
   - component: {fileID: 355863504}
   m_Layer: 0
-  m_Name: Booty
+  m_Name: Tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13674,7 +13674,7 @@ GameObject:
   - component: {fileID: 685254449}
   - component: {fileID: 685254450}
   m_Layer: 0
-  m_Name: Tip
+  m_Name: Booty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
