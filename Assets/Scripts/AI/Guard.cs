@@ -3,15 +3,27 @@ using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class Guard : MonoBehaviour
-{
+{    
     StateMachine stateMachine;
-    WanderState wanderState;
-    NavMeshAgent agent;
 
-    void Awake()
+    // States
+    WanderState wanderState;
+    WaitState waitState;
+
+    void Start()
     {
-        stateMachine = new StateMachine();
-        agent = GetComponent<NavMeshAgent>();
-        wanderState = new WanderState(gameObject, agent);
+        // Declare states
+        wanderState = new WanderState(gameObject);
+        waitState = new WaitState(gameObject);
+        stateMachine = new StateMachine(waitState);
+        
+        // Declare transitions
+        stateMachine.AddTransition(wanderState, waitState, new FuncPredicate(() => wanderState.destinationReached));
+        stateMachine.AddTransition(waitState, wanderState, new FuncPredicate(() => waitState.hasWaited));
+    }
+
+    void FixedUpdate()
+    {
+        stateMachine.FixedUpdate();
     }
 }

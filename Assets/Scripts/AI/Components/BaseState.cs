@@ -3,15 +3,21 @@ using UnityEngine.AI;
 public abstract class BaseState : IState
 {
     protected readonly GameObject go;
-    protected readonly NavMeshAgent agent;
+    protected MonoBehaviour mono;
+    protected NavMeshAgent agent;
 
-    public virtual void OnEnter(){}
+    public virtual void OnEnter()
+    {
+        mono = go.GetComponent<MonoBehaviour>();
+        agent = go.GetComponent<NavMeshAgent>();
+    }
     public virtual void FixedUpdate(){}
     public virtual void OnExit(){}
 
-    protected BaseState (GameObject _go, NavMeshAgent _agent)
+    protected BaseState (GameObject _go)
     {
         this.go = _go;
-        this.agent = _agent;
+        mono = go.GetComponent<MonoBehaviour>();
+        agent = go.GetComponent<NavMeshAgent>();
     }
 }
