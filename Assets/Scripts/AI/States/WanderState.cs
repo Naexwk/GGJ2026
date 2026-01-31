@@ -1,11 +1,10 @@
-using System.Collections;
 using UnityEngine;
 
+// Rework get destination for validity
 public class WanderState : BaseState
 {
     float wanderDistance = 5f;
     float distanceThreshold = 0.5f;
-    float waitTimeBetweenDestinations = 2f;
     Vector2 destination;
     //bool isWaiting;
     public bool destinationReached = false;

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public bool isSus;
     private Rigidbody2D rb;
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private Animator animator; 

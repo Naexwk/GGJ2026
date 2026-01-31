@@ -11,6 +11,7 @@ public abstract class BaseState : IState
         mono = go.GetComponent<MonoBehaviour>();
         agent = go.GetComponent<NavMeshAgent>();
     }
+    
     public virtual void FixedUpdate(){}
     public virtual void OnExit(){}
 
