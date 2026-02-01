@@ -2,9 +2,14 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    [Tooltip("List containing all SFXs")]
+    [Tooltip("List containing all SFXs INDEX:" +
+        "0 -> Footstep" +
+        "1 -> Possesion" +
+        "2 -> Interaction" +
+        "3 -> Death" +
+        "4 -> PLACEHOLDER")]
     [SerializeField] AudioClip[] SFX_Clips;
-    [Tooltip("List containing all Music")]
+    [Tooltip("List containing all Music ")]
     [SerializeField] AudioClip[] Music_Clips;
     [SerializeField] AudioSource SFX_AudioSource;
     [SerializeField] AudioSource Music_AudioSource;
