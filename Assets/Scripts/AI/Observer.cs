@@ -8,7 +8,6 @@ public class Observer : MonoBehaviour
     [SerializeField] LayerMask obstacleLayerMask;
     public bool isAlert = false;
     public bool detectedPlayer = false;
-    [SerializeField] float runTime = 5f;
 
     // time it takes to go from alert to running/chasing
     // rn is 5 seconds (math)

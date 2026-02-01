@@ -3,7 +3,7 @@ using UnityEngine;
 // Rework get destination for validity
 public class WanderState : BaseState
 {
-    float wanderDistance = 5f;
+    float wanderDistance = 15f;
     float distanceThreshold = 0.5f;
     Vector2 destination;
     public bool destinationReached = false;
