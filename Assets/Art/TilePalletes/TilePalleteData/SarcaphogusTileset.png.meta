@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 339eb69c3abe42c4b98b7e79cb533e71
-      internalID: 456578959
+      spriteID: 323fadf05dc25c54e990f2f3596943b7
+      internalID: -1308664079
       vertices: []
       indices: 
       edges: []
@@ -172,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d82fff5e697ca34bb41105c00a44613
-      internalID: 1987534723
+      spriteID: 687921f61b8eef44aa49292f94d187cc
+      internalID: -1720819380
       vertices: []
       indices: 
       edges: []
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42b16e73c5dae6f40841fa0d64c51863
-      internalID: 1203011086
+      spriteID: dc912f31094fef540b1c5c41334a3e9b
+      internalID: 875568290
       vertices: []
       indices: 
       edges: []
@@ -204,7 +204,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c46805972b06bf6418e9403fec7fa8f0
+    spriteID: 2396ccc898187bb47bd4f3a18dd2b5b6
     internalID: 0
     vertices: []
     indices: 
@@ -217,9 +217,9 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       SarcaphogusTileset_0: -4625100953840559290
-      SarcaphogusTileset_1: 456578959
-      SarcaphogusTileset_2: 1987534723
-      SarcaphogusTileset_3: 1203011086
+      SarcaphogusTileset_1: -1308664079
+      SarcaphogusTileset_2: -1720819380
+      SarcaphogusTileset_3: 875568290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

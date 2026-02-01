@@ -33,11 +33,11 @@ public class AudioManager : MonoBehaviour
     {
         if (AudioClipID > SFX_Clips.Length - 1) 
         {
-            Debug.LogAssertion("AudioClipID is out of range of the audioClips array.");
+            //Debug.LogAssertion("AudioClipID is out of range of the audioClips array.");
         }
         // Implementation for playing sound
         SFX_AudioSource.PlayOneShot(SFX_Clips[AudioClipID]);
-        Debug.Log($"Playing sound with the following index: {AudioClipID}");
+        //Debug.Log($"Playing sound with the following index: {AudioClipID}");
     }
 
     public void PlayMusic(int MusicClipID)
@@ -46,7 +46,7 @@ public class AudioManager : MonoBehaviour
         {
             Debug.LogAssertion("AudioClipID is out of range of the audioClips array.");
         }
-        Debug.Log($"Playing sound with the following index: {MusicClipID}");
+        //Debug.Log($"Playing sound with the following index: {MusicClipID}");
         Music_AudioSource.Stop();
         Music_AudioSource.PlayOneShot(Music_Clips[MusicClipID]);
     }

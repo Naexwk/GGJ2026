@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 477de6e9f574ae6499fba755b109b424
-      internalID: 36139829
+      spriteID: 754af6ab6b9d0024dabef087d1f8c5ba
+      internalID: -927752551
       vertices: []
       indices: 
       edges: []
@@ -172,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e3e673badfa8624290de418d904fd99
-      internalID: -1540795771
+      spriteID: c8c6151525b8a4b49a36a5181f526789
+      internalID: -640521822
       vertices: []
       indices: 
       edges: []
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c5a62b9f7bc4e1469df9c261f990b4e
-      internalID: 1364211751
+      spriteID: b81ebab6ddecafb4e872a4130672cba2
+      internalID: -1290548428
       vertices: []
       indices: 
       edges: []
@@ -204,7 +204,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 89b5f93b1019f444f9e7de4c5ce6e574
+    spriteID: 273dcf09fb77f084e8fb03c864c78067
     internalID: 0
     vertices: []
     indices: 
@@ -213,13 +213,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       ArchiveTileset_0: -2791484396888304476
-      ArchiveTileset_1: 36139829
-      ArchiveTileset_2: -1540795771
-      ArchiveTileset_3: 1364211751
+      ArchiveTileset_1: -927752551
+      ArchiveTileset_2: -640521822
+      ArchiveTileset_3: -1290548428
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

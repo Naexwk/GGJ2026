@@ -31,7 +31,7 @@ public class JohnEgypt : Character
 
         // FOR EVERYONE
         //stateMachine.AddAnyTransition(runState, new FuncPredicate(() => runState.observer.detectedPlayer));
-        stateMachine.AddTransition(stunState, waitState, new FuncPredicate(() => stunState.isNoLongerStunned));
+        stateMachine.AddTransition(stunState, waitState, new FuncPredicate(() => stunState.hasWaitedStun));
 
         stateMachine.AddAnyTransition(stunState, new FuncPredicate(() => stun));
         stateMachine.AddAnyTransition(alertState, new FuncPredicate(() => alertState.observer.isAlert));

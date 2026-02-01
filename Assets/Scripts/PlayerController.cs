@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -20,11 +21,13 @@ public class PlayerController : MonoBehaviour
     GameObject possessionTarget;
 
     [SerializeField] GameObject vessel;
-    [SerializeField] GameObject nextVessel;
+    //[SerializeField] GameObject nextVessel;
     [SerializeField] GameObject fx;
+    Collider2D coll;
 
     void Awake()
     {
+        coll = GetComponent<Collider2D>();
         //cam = GameObject.FindGameObjectWithTag("CinemachineCamera").GetComponent<CinemachineCamera>();
     }
 
@@ -37,11 +40,13 @@ public class PlayerController : MonoBehaviour
         //cam.Target.TrackingTarget = vessel.transform;
 
         //GameManager.Instance.StartGame(); // Start the game via GameManager :D
+
         vesselCharacter = vessel.GetComponent<Character>();
+
         rb = vessel.GetComponent<Rigidbody2D>();
         animator = vessel.GetComponentInChildren<Animator>();
 
-        //vessel.GetComponent<NavMeshAgent>().enabled = false;
+        vessel.GetComponent<NavMeshAgent>().enabled = false;
         vesselCharacter.enabled = false;
     }
 
@@ -141,28 +146,27 @@ public class PlayerController : MonoBehaviour
 
     void DoPossesion() 
     {
-        /*if (possessionTarget == null)
-        {
-            Debug.Log("who?");
-            return;
-        }*/
-        
-        //vessel.GetComponent<NavMeshAgent>().enabled = true;
-        vessel.GetComponent<Character>().Stun();
-        //vessel.GetComponent<NavMeshAgent>().enabled = true;
+        if (possessionTarget == null) return;
+        vessel.GetComponent<NavMeshAgent>().enabled = true;
         vesselCharacter.enabled = true;
+        vesselCharacter.Stun();
+        
 
-        vessel = nextVessel;
-        //cam.Target.TrackingTarget = vessel.transform;
+        rb.linearVelocity = Vector3.zero;
+
+        vessel = possessionTarget;
+
+        vesselCharacter = vessel.GetComponent<Character>();
 
         rb = vessel.GetComponent<Rigidbody2D>();
         animator = vessel.GetComponentInChildren<Animator>();
-        vesselCharacter = vessel.GetComponent<Character>();
 
-        //vessel.GetComponent<NavMeshAgent>().enabled = false;
         vesselCharacter.enabled = false;
+        vessel.GetComponent<NavMeshAgent>().enabled = false;
+
+        coll.enabled = false;
+        coll.enabled = true;
         
-        Debug.Log("Player has attempted to possess an entity!");
         AudioManager.Instance.PlaySFX(1); // Play possesion sound
         animator.SetTrigger("isPossesing");
     }
@@ -183,17 +187,14 @@ public class PlayerController : MonoBehaviour
 
         target?.GetComponent<IInteractable>()?.Interact();
 
-        Debug.Log("Player has attempted to interact with an object!");
         AudioManager.Instance.PlaySFX(2); // Play interaction sound
         animator.SetTrigger("isInteracting");
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Entered");
         if(other.CompareTag("Character"))
         {
-            Debug.Log("found character");
             possessables.Add(other.gameObject);
         } 
         else if(other.CompareTag("Interactable"))

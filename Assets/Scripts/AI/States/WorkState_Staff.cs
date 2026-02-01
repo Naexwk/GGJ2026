@@ -53,6 +53,7 @@ public class WorkState_Staff : BaseState
     public override void OnExit()
     {
         hasRested = false;
+        mono.StopAllCoroutines();
         mono.StartCoroutine(recordRestTime());
     }
 
