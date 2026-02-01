@@ -1,8 +1,5 @@
 using System.Collections.Generic;
-using Unity.Cinemachine;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -23,6 +20,8 @@ public class PlayerController : MonoBehaviour
     GameObject possessionTarget;
 
     [SerializeField] GameObject vessel;
+    [SerializeField] GameObject nextVessel;
+    [SerializeField] GameObject fx;
 
     void Awake()
     {
@@ -42,7 +41,7 @@ public class PlayerController : MonoBehaviour
         rb = vessel.GetComponent<Rigidbody2D>();
         animator = vessel.GetComponentInChildren<Animator>();
 
-        vessel.GetComponent<NavMeshAgent>().enabled = false;
+        //vessel.GetComponent<NavMeshAgent>().enabled = false;
         vesselCharacter.enabled = false;
     }
 
@@ -60,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q)) // Logic to interact with Q :D
         {
-            //DoInteraction();
+            DoInteraction();
         }
 
         MaskFX();
@@ -115,24 +114,52 @@ public class PlayerController : MonoBehaviour
 
     void MaskFX ()
     {
-        
+        float minDistance = float.MaxValue;
+        GameObject target = null;
+        foreach (var possessable in possessables)
+        {
+            float dist = Vector3.Distance(gameObject.transform.position, possessable.transform.position);
+            if (dist < minDistance && possessable != vessel)
+            {
+                target = possessable;
+                minDistance = dist;
+            }
+        }
+
+        possessionTarget = target;
+
+        if (possessionTarget != null)
+        {
+            fx.SetActive(true);
+            fx.transform.position = possessionTarget.transform.position;
+        } else
+        {
+            fx.SetActive(false);
+        }
+
     }
 
     void DoPossesion() 
     {
-        vessel.GetComponent<NavMeshAgent>().enabled = true;
-        vessel.GetComponent<IPossessable>().Stun();
-        vessel.GetComponent<NavMeshAgent>().enabled = true;
+        /*if (possessionTarget == null)
+        {
+            Debug.Log("who?");
+            return;
+        }*/
+        
+        //vessel.GetComponent<NavMeshAgent>().enabled = true;
+        vessel.GetComponent<Character>().Stun();
+        //vessel.GetComponent<NavMeshAgent>().enabled = true;
         vesselCharacter.enabled = true;
 
-        vessel = possessionTarget;
+        vessel = nextVessel;
         //cam.Target.TrackingTarget = vessel.transform;
 
         rb = vessel.GetComponent<Rigidbody2D>();
         animator = vessel.GetComponentInChildren<Animator>();
         vesselCharacter = vessel.GetComponent<Character>();
 
-        vessel.GetComponent<NavMeshAgent>().enabled = false;
+        //vessel.GetComponent<NavMeshAgent>().enabled = false;
         vesselCharacter.enabled = false;
         
         Debug.Log("Player has attempted to possess an entity!");
@@ -140,7 +167,7 @@ public class PlayerController : MonoBehaviour
         animator.SetTrigger("isPossesing");
     }
 
-    /*void DoInteraction() 
+    void DoInteraction() 
     {
         float minDistance = float.MaxValue;
         GameObject target = null;
@@ -159,12 +186,14 @@ public class PlayerController : MonoBehaviour
         Debug.Log("Player has attempted to interact with an object!");
         AudioManager.Instance.PlaySFX(2); // Play interaction sound
         animator.SetTrigger("isInteracting");
-    }*/
+    }
 
-    /*void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("Entered");
         if(other.CompareTag("Character"))
         {
+            Debug.Log("found character");
             possessables.Add(other.gameObject);
         } 
         else if(other.CompareTag("Interactable"))
@@ -185,5 +214,5 @@ public class PlayerController : MonoBehaviour
             if (interactables.Contains(other.gameObject))
             interactables.Remove(other.gameObject);
         }
-    }*/
+    }
 }

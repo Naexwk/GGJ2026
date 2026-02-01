@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 7530880181401228}
   m_Layer: 0
   m_Name: JakeStaff
-  m_TagString: Untagged
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -233,10 +233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af1d2b04b1f408046b548b2e1ef8c0fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Staff
-  pois:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &791023988108337880
 MonoBehaviour:
   m_ObjectHideFlags: 0

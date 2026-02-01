@@ -13,7 +13,6 @@ public class Guard : Character
     AlertState alertState;
     StunState stunState;
 
-
     void Start()
     {
         stun = false;
