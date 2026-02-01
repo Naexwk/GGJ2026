@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 30f746c0884add74282fcd4fa75a01ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3536132197070517008
+    second: Staff1_WalkCycle_0
+  - first:
+      213: 2723681099168887549
+    second: Staff1_WalkCycle_1
+  - first:
+      213: 8259848346700064109
+    second: Staff1_WalkCycle_2
+  - first:
+      213: 7638063125680913741
+    second: Staff1_WalkCycle_3
+  - first:
+      213: 6011463968234003825
+    second: Staff1_WalkCycle_4
+  - first:
+      213: -978991851583763986
+    second: Staff1_WalkCycle_5
+  - first:
+      213: 5333608466368025078
+    second: Staff1_WalkCycle_6
+  - first:
+      213: -7785594936396472618
+    second: Staff1_WalkCycle_7
+  - first:
+      213: 2811041159240200434
+    second: Staff1_WalkCycle_8
+  - first:
+      213: 1438737575770068396
+    second: Staff1_WalkCycle_9
+  - first:
+      213: 6951498149414225059
+    second: Staff1_WalkCycle_10
+  - first:
+      213: 3861380826418694603
+    second: Staff1_WalkCycle_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 70
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc4ac280822deec0800000000000000
+      internalID: -3536132197070517008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 70
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2386d67857cc520800000000000000
+      internalID: 2723681099168887549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 70
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65a7ab0f40e0a270800000000000000
+      internalID: 8259848346700064109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 70
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d7832d1f9dff960800000000000000
+      internalID: 7638063125680913741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 38
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17dd5a601a20d6350800000000000000
+      internalID: 6011463968234003825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 38
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee90950191ce962f0800000000000000
+      internalID: -978991851583763986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_6
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 38
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1d1e834a8c40a40800000000000000
+      internalID: 5333608466368025078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_7
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 38
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de120bb7a204f390800000000000000
+      internalID: -7785594936396472618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0b3817a03d20720800000000000000
+      internalID: 2811041159240200434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 6
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca518c0d33c67f310800000000000000
+      internalID: 1438737575770068396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 6
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4ce9c7cbea87060800000000000000
+      internalID: 6951498149414225059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff1_WalkCycle_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 6
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9c0353761669530800000000000000
+      internalID: 3861380826418694603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Staff1_WalkCycle_0: -3536132197070517008
+      Staff1_WalkCycle_1: 2723681099168887549
+      Staff1_WalkCycle_10: 6951498149414225059
+      Staff1_WalkCycle_11: 3861380826418694603
+      Staff1_WalkCycle_2: 8259848346700064109
+      Staff1_WalkCycle_3: 7638063125680913741
+      Staff1_WalkCycle_4: 6011463968234003825
+      Staff1_WalkCycle_5: -978991851583763986
+      Staff1_WalkCycle_6: 5333608466368025078
+      Staff1_WalkCycle_7: -7785594936396472618
+      Staff1_WalkCycle_8: 2811041159240200434
+      Staff1_WalkCycle_9: 1438737575770068396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
