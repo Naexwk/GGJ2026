@@ -323,7 +323,7 @@ PrefabInstance:
     - target: {fileID: 6897178435337762173, guid: b2db44666ffa3a04887a6f5f486cc1d6, type: 3}
       propertyPath: m_SpriteLibraryAsset
       value: 
-      objectReference: {fileID: 7108339969198208228, guid: ec2481fa694d8fd4f90d7c9afd7961e6, type: 3}
+      objectReference: {fileID: 7108339969198208228, guid: af075b29235fb3f4caadf902dbbdbb0b, type: 3}
     - target: {fileID: 7043604600788026787, guid: b2db44666ffa3a04887a6f5f486cc1d6, type: 3}
       propertyPath: m_Name
       value: NPCs
