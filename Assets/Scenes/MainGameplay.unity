@@ -14497,11 +14497,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2023312600 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2591897888428969730, guid: 4c19e4965b6e8fa489b73adb7fca58be, type: 3}
-  m_PrefabInstance: {fileID: 1155995775}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2025624607
 GameObject:
   m_ObjectHideFlags: 0
@@ -133297,7 +133292,6 @@ MonoBehaviour:
   isPossesing: 0
   isInteracting: 0
   vessel: {fileID: 887040075}
-  nextVessel: {fileID: 2023312600}
   fx: {fileID: 1511413066}
 --- !u!4 &2133253527
 Transform:
@@ -133349,7 +133343,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 2
+  m_Radius: 3
 --- !u!1001 &3958849287577072967
 PrefabInstance:
   m_ObjectHideFlags: 0
