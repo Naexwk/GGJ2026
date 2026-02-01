@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private bool isPossesing;
     [SerializeField] private bool isInteracting;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // Start is called once before the first execution of Update after the MonoBehaviour is createdz
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

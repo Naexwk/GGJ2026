@@ -1,14 +1,14 @@
 using System.Collections;
 using UnityEngine;
 
-public class StaffWorkState : BaseState
+public class WorkState_Guard : BaseState
 {
     float restTime = 15f;
     float workTime = 5f;
     public bool isTired = false;
     public bool hasRested = true;
 
-    public StaffWorkState (GameObject go) : base(go) {}
+    public WorkState_Guard (GameObject go) : base(go) {}
 
     public override void OnEnter()
     {

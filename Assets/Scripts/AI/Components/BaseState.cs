@@ -5,6 +5,7 @@ public abstract class BaseState : IState
     protected readonly GameObject go;
     protected MonoBehaviour mono;
     protected NavMeshAgent agent;
+    public Observer observer;
 
     public virtual void OnEnter()
     {
@@ -20,5 +21,6 @@ public abstract class BaseState : IState
         this.go = _go;
         mono = go.GetComponent<MonoBehaviour>();
         agent = go.GetComponent<NavMeshAgent>();
+        observer = go.GetComponent<Observer>();
     }
 }
