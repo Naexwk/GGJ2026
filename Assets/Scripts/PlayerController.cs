@@ -52,7 +52,19 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Left", true);
             animator.SetBool("Idle", false);
         }
-        else
+        else if (movement == new Vector2(-1, 1) || movement == new Vector2(-1, -1)) // If going left diagonally
+        {
+            // Trigger walking animation here if needed
+            animator.SetBool("Left", true);
+            animator.SetBool("Idle", false);
+        }
+        else if (movement == new Vector2(1, 1) || movement == new Vector2(1, -1)) // If going right diagonally
+        {
+            // Trigger walking animation here if needed
+            animator.SetBool("Right", true);
+            animator.SetBool("Idle", false);
+        }
+        else if (movement == new Vector2(0,0))
         {
             // Trigger idle animation here if needed
             animator.SetBool("Idle", true);
@@ -61,6 +73,8 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Right", false);
             animator.SetBool("Left", false);
         }
+
+        Debug.Log("Player Movement Vector: " + movement);
 
         //No rotation in order to maintain animations consistent
         /*
@@ -74,6 +88,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)) // Posses others with the space key :D
         {
             AudioManager.Instance.PlaySFX(1); // Play possesion sound
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q)) // Logic to interact with stuff :D
+        {
+            //Logic to interact with stuff here
+            AudioManager.Instance.PlaySFX(3); // Play interaction sound
         }
     }
 

@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: 40b0ad59d0800724c9a190edfcb9500e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 339338707057852688
+    second: Pants2_0
+  - first:
+      213: -2490059322073161066
+    second: Pants2_1
+  - first:
+      213: 2216990985571881916
+    second: Pants2_2
+  - first:
+      213: -5775690147751206234
+    second: Pants2_3
+  - first:
+      213: 1948297097421419345
+    second: Pants2_4
+  - first:
+      213: -4682817743663502960
+    second: Pants2_5
+  - first:
+      213: -2768569333260819632
+    second: Pants2_6
+  - first:
+      213: 1333453094229729687
+    second: Pants2_7
+  - first:
+      213: 6559523374727069177
+    second: Pants2_8
+  - first:
+      213: 4834141810342712302
+    second: Pants2_9
+  - first:
+      213: -3119376160020923766
+    second: Pants2_10
+  - first:
+      213: 2683679127653394335
+    second: Pants2_11
+  - first:
+      213: 8395030669062352729
+    second: Pants2_12
+  - first:
+      213: -2806343586541944480
+    second: Pants2_13
+  - first:
+      213: 3966345964744260660
+    second: Pants2_14
+  - first:
+      213: 4457416392278472549
+    second: Pants2_15
+  - first:
+      213: -4648663955315764511
+    second: Pants2_16
+  - first:
+      213: -6870846744322736454
+    second: Pants2_17
+  - first:
+      213: -584233516601769256
+    second: Pants2_18
+  - first:
+      213: -5145262860493212952
+    second: Pants2_19
+  - first:
+      213: -4796787379458109021
+    second: Pants2_20
+  - first:
+      213: -1309886494397162382
+    second: Pants2_21
+  - first:
+      213: 885723090021931420
+    second: Pants2_22
+  - first:
+      213: 517552624215547517
+    second: Pants2_23
+  - first:
+      213: -1900461691832354033
+    second: Pants2_24
+  - first:
+      213: -3706165916998701993
+    second: Pants2_25
+  - first:
+      213: 2244469042404634433
+    second: Pants2_26
+  - first:
+      213: 3533384544356021716
+    second: Pants2_27
+  - first:
+      213: -4261181657784733398
+    second: Pants2_28
+  - first:
+      213: 3775681400777336122
+    second: Pants2_29
+  - first:
+      213: 1457443272492230140
+    second: Pants2_30
+  - first:
+      213: -7100970000903908051
+    second: Pants2_31
+  - first:
+      213: 311444981005611588
+    second: Pants2_32
+  - first:
+      213: 5042577304559121980
+    second: Pants2_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pants2_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 7
+        width: 64
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01149b491c295b400800000000000000
+      internalID: 339338707057852688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 6
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692ed2e4d38817dd0800000000000000
+      internalID: -2490059322073161066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_2
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb351452e8554ce10800000000000000
+      internalID: 2216990985571881916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 7
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2e09a5960a8dfa0800000000000000
+      internalID: -5775690147751206234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_4
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 7
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1537ab833edb90b10800000000000000
+      internalID: 1948297097421419345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_5
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 6
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0996a01a21a430fb0800000000000000
+      internalID: -4682817743663502960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_6
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 7
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053e2f22cd01499d0800000000000000
+      internalID: -2768569333260819632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_7
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 7
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79165363680618210800000000000000
+      internalID: 1333453094229729687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 7
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd7a7661cb180b50800000000000000
+      internalID: 6559523374727069177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_9
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee357573d52561340800000000000000
+      internalID: 4834141810342712302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_10
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a712dd8efb5b4d0800000000000000
+      internalID: -3119376160020923766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 6
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9729e6a2f75e3520800000000000000
+      internalID: 2683679127653394335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fa8fb2ae3218470800000000000000
+      internalID: 8395030669062352729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 4
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061c87e606ddd09d0800000000000000
+      internalID: -2806343586541944480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_14
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cb2ece3aa4b0730800000000000000
+      internalID: 3966345964744260660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_15
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 7
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567f2c5a79cebdd30800000000000000
+      internalID: 4457416392278472549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_16
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2dd3723c0ac7fb0800000000000000
+      internalID: -4648663955315764511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_17
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 7
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe7e721a49d5a0a0800000000000000
+      internalID: -6870846744322736454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_18
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2031946b264e7f0800000000000000
+      internalID: -584233516601769256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_19
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2ba4c60ba5898b0800000000000000
+      internalID: -5145262860493212952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_20
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a19258fa436e6db0800000000000000
+      internalID: -4796787379458109021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_21
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c10656c2952dde0800000000000000
+      internalID: -1309886494397162382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_22
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c995e162578ba4c00800000000000000
+      internalID: 885723090021931420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_23
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e50fe9e57be2700800000000000000
+      internalID: 517552624215547517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_24
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 6
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b381d092430a5e0800000000000000
+      internalID: -1900461691832354033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_25
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ce1ae0cbd019cc0800000000000000
+      internalID: -3706165916998701993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_26
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 6
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fa3edc3b4f52f10800000000000000
+      internalID: 2244469042404634433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_27
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5323db58a190130800000000000000
+      internalID: 3533384544356021716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_28
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21b454ebdd3dd4c0800000000000000
+      internalID: -4261181657784733398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_29
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35e166ca3ae56430800000000000000
+      internalID: 3775681400777336122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_30
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 7
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5ae293fe0e93410800000000000000
+      internalID: 1457443272492230140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_31
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25da6f1869447d90800000000000000
+      internalID: -7100970000903908051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_32
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442fae36f89725400800000000000000
+      internalID: 311444981005611588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pants2_33
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3671be7755daf540800000000000000
+      internalID: 5042577304559121980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pants2_0: 339338707057852688
+      Pants2_1: -2490059322073161066
+      Pants2_10: -3119376160020923766
+      Pants2_11: 2683679127653394335
+      Pants2_12: 8395030669062352729
+      Pants2_13: -2806343586541944480
+      Pants2_14: 3966345964744260660
+      Pants2_15: 4457416392278472549
+      Pants2_16: -4648663955315764511
+      Pants2_17: -6870846744322736454
+      Pants2_18: -584233516601769256
+      Pants2_19: -5145262860493212952
+      Pants2_2: 2216990985571881916
+      Pants2_20: -4796787379458109021
+      Pants2_21: -1309886494397162382
+      Pants2_22: 885723090021931420
+      Pants2_23: 517552624215547517
+      Pants2_24: -1900461691832354033
+      Pants2_25: -3706165916998701993
+      Pants2_26: 2244469042404634433
+      Pants2_27: 3533384544356021716
+      Pants2_28: -4261181657784733398
+      Pants2_29: 3775681400777336122
+      Pants2_3: -5775690147751206234
+      Pants2_30: 1457443272492230140
+      Pants2_31: -7100970000903908051
+      Pants2_32: 311444981005611588
+      Pants2_33: 5042577304559121980
+      Pants2_4: 1948297097421419345
+      Pants2_5: -4682817743663502960
+      Pants2_6: -2768569333260819632
+      Pants2_7: 1333453094229729687
+      Pants2_8: 6559523374727069177
+      Pants2_9: 4834141810342712302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

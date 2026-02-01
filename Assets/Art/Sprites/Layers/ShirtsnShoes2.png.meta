@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6bfa233d9c285104aa6517b0e3a90146
+guid: 3be360cf9bc85054bbc01741810a03eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 439366194694985182
-    second: BaseFW1_0
+      213: -8026154763194572266
+    second: ShirtsnShoes2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BaseFW1_0
+      name: ShirtsnShoes2_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 108
         y: 3
-        width: 16
-        height: 28
+        width: 1128
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed51c19e931f81600800000000000000
-      internalID: 439366194694985182
+      spriteID: 6126a7b64ce5d9090800000000000000
+      internalID: -8026154763194572266
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BaseFW1_0: 439366194694985182
+      ShirtsnShoes2_0: -8026154763194572266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

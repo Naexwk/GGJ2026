@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 9a3daf5605f29e645b5846431f614034
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1774981971989137142
+    second: JohnEgyptFull_0
+  - first:
+      213: 5481563545746378290
+    second: JohnEgyptFull_1
+  - first:
+      213: -5125254187283978792
+    second: JohnEgyptFull_2
+  - first:
+      213: -5158112145423592604
+    second: JohnEgyptFull_3
+  - first:
+      213: 7363563201547989779
+    second: JohnEgyptFull_4
+  - first:
+      213: 5034528190196698923
+    second: JohnEgyptFull_5
+  - first:
+      213: -141255043520223136
+    second: JohnEgyptFull_6
+  - first:
+      213: 4249169177234294527
+    second: JohnEgyptFull_7
+  - first:
+      213: 3988793760375276891
+    second: JohnEgyptFull_8
+  - first:
+      213: -1157404837542371065
+    second: JohnEgyptFull_9
+  - first:
+      213: -4937020014172432735
+    second: JohnEgyptFull_10
+  - first:
+      213: -8194726973697265378
+    second: JohnEgyptFull_11
+  - first:
+      213: -3479254104702763620
+    second: JohnEgyptFull_12
+  - first:
+      213: 7520680234608770963
+    second: JohnEgyptFull_13
+  - first:
+      213: 6085824858566519028
+    second: JohnEgyptFull_14
+  - first:
+      213: 5386185711753629525
+    second: JohnEgyptFull_15
+  - first:
+      213: -7772233334050403324
+    second: JohnEgyptFull_16
+  - first:
+      213: -1001456700474513839
+    second: JohnEgyptFull_17
+  - first:
+      213: 5553541849322260653
+    second: JohnEgyptFull_18
+  - first:
+      213: -3940525705722195727
+    second: JohnEgyptFull_19
+  - first:
+      213: -2989823030412213853
+    second: JohnEgyptFull_20
+  - first:
+      213: -2727455916321751600
+    second: JohnEgyptFull_21
+  - first:
+      213: 2382834545127609978
+    second: JohnEgyptFull_22
+  - first:
+      213: 8652793465892205530
+    second: JohnEgyptFull_23
+  - first:
+      213: -8645558334214091738
+    second: JohnEgyptFull_24
+  - first:
+      213: -7012069960555002326
+    second: JohnEgyptFull_25
+  - first:
+      213: 8886569913617835380
+    second: JohnEgyptFull_26
+  - first:
+      213: 2494073641149943663
+    second: JohnEgyptFull_27
+  - first:
+      213: -2175347624660126759
+    second: JohnEgyptFull_28
+  - first:
+      213: 1242805871412690748
+    second: JohnEgyptFull_29
+  - first:
+      213: -5500557123377796612
+    second: JohnEgyptFull_30
+  - first:
+      213: -6202330004796537081
+    second: JohnEgyptFull_31
+  - first:
+      213: -3100753841185309116
+    second: JohnEgyptFull_32
+  - first:
+      213: 4899719536041775711
+    second: JohnEgyptFull_33
+  - first:
+      213: 7323664067372891300
+    second: JohnEgyptFull_34
+  - first:
+      213: 4319681295132752692
+    second: JohnEgyptFull_35
+  - first:
+      213: -1623832013591712948
+    second: JohnEgyptFull_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JohnEgyptFull_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a097ddcfc4ffd57e0800000000000000
+      internalID: -1774981971989137142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 3
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e81f5900d621c40800000000000000
+      internalID: 5481563545746378290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 3
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5ea5fa8707fd8b0800000000000000
+      internalID: -5125254187283978792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46316642554ba68b0800000000000000
+      internalID: -5158112145423592604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 3
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313f76dc7b1a03660800000000000000
+      internalID: 7363563201547989779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_5
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 3
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f4d5407bc3ed540800000000000000
+      internalID: 5034528190196698923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_6
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 3
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068ae3c49492a0ef0800000000000000
+      internalID: -141255043520223136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_7
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 3
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6c6978ad418fa30800000000000000
+      internalID: 4249169177234294527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_8
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 3
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b558671aaca0b5730800000000000000
+      internalID: 3988793760375276891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701e7f4be6210ffe0800000000000000
+      internalID: -1157404837542371065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 3
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6124e547e2c7bb0800000000000000
+      internalID: -4937020014172432735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 3
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1176752c3b764e80800000000000000
+      internalID: -8194726973697265378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_12
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 3
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d3fdd53d437bfc0800000000000000
+      internalID: -3479254104702763620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_13
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 3
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f382db3d2de5860800000000000000
+      internalID: 7520680234608770963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_14
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 3
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8691cf671357450800000000000000
+      internalID: 6085824858566519028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_15
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 3
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f0c5b1e539fba40800000000000000
+      internalID: 5386185711753629525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_16
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 3
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cc97436fa732490800000000000000
+      internalID: -7772233334050403324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_17
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 3
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1562846df6c1a12f0800000000000000
+      internalID: -1001456700474513839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_18
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 3
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da88e1653e4221d40800000000000000
+      internalID: 5553541849322260653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_19
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 3
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0122a9fb07059c0800000000000000
+      internalID: -3940525705722195727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_20
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a18ffa6bc30286d0800000000000000
+      internalID: -2989823030412213853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_21
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 3
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddba177b41262ad0800000000000000
+      internalID: -2727455916321751600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_22
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a765cdcd467811120800000000000000
+      internalID: 2382834545127609978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_23
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 3
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3735110d5e41870800000000000000
+      internalID: 8652793465892205530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_24
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 3
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c404c408ec40880800000000000000
+      internalID: -8645558334214091738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_25
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a268eecb58f10be90800000000000000
+      internalID: -7012069960555002326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_26
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 3
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4756ddcd040735b70800000000000000
+      internalID: 8886569913617835380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_27
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f486033cabc9220800000000000000
+      internalID: 2494073641149943663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_28
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 3
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3b4216cdc9fc1e0800000000000000
+      internalID: -2175347624660126759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_29
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fb25afa555f3110800000000000000
+      internalID: 1242805871412690748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_30
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 3
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9625280781aa3b0800000000000000
+      internalID: -5500557123377796612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_31
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 3
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7070b54d8b5ece9a0800000000000000
+      internalID: -6202330004796537081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_32
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 3
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44eb8385fc8e7f4d0800000000000000
+      internalID: -3100753841185309116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_33
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 3
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52dfcc45fc4ff340800000000000000
+      internalID: 4899719536041775711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_34
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 3
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acbd06baa1e2a560800000000000000
+      internalID: 7323664067372891300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_35
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 3
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b7943504792fb30800000000000000
+      internalID: 4319681295132752692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JohnEgyptFull_36
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 3
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b65f6136df679e0800000000000000
+      internalID: -1623832013591712948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      JohnEgyptFull_0: -1774981971989137142
+      JohnEgyptFull_1: 5481563545746378290
+      JohnEgyptFull_10: -4937020014172432735
+      JohnEgyptFull_11: -8194726973697265378
+      JohnEgyptFull_12: -3479254104702763620
+      JohnEgyptFull_13: 7520680234608770963
+      JohnEgyptFull_14: 6085824858566519028
+      JohnEgyptFull_15: 5386185711753629525
+      JohnEgyptFull_16: -7772233334050403324
+      JohnEgyptFull_17: -1001456700474513839
+      JohnEgyptFull_18: 5553541849322260653
+      JohnEgyptFull_19: -3940525705722195727
+      JohnEgyptFull_2: -5125254187283978792
+      JohnEgyptFull_20: -2989823030412213853
+      JohnEgyptFull_21: -2727455916321751600
+      JohnEgyptFull_22: 2382834545127609978
+      JohnEgyptFull_23: 8652793465892205530
+      JohnEgyptFull_24: -8645558334214091738
+      JohnEgyptFull_25: -7012069960555002326
+      JohnEgyptFull_26: 8886569913617835380
+      JohnEgyptFull_27: 2494073641149943663
+      JohnEgyptFull_28: -2175347624660126759
+      JohnEgyptFull_29: 1242805871412690748
+      JohnEgyptFull_3: -5158112145423592604
+      JohnEgyptFull_30: -5500557123377796612
+      JohnEgyptFull_31: -6202330004796537081
+      JohnEgyptFull_32: -3100753841185309116
+      JohnEgyptFull_33: 4899719536041775711
+      JohnEgyptFull_34: 7323664067372891300
+      JohnEgyptFull_35: 4319681295132752692
+      JohnEgyptFull_36: -1623832013591712948
+      JohnEgyptFull_4: 7363563201547989779
+      JohnEgyptFull_5: 5034528190196698923
+      JohnEgyptFull_6: -141255043520223136
+      JohnEgyptFull_7: 4249169177234294527
+      JohnEgyptFull_8: 3988793760375276891
+      JohnEgyptFull_9: -1157404837542371065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

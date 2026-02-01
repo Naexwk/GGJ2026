@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 4812d2a87cc6eaf49b7c6951f0cafbf7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5524067837780177238
+    second: LabCoat2_0
+  - first:
+      213: -2435358001095442339
+    second: LabCoat2_1
+  - first:
+      213: 2228615529814684462
+    second: LabCoat2_2
+  - first:
+      213: 5207956318411337072
+    second: LabCoat2_3
+  - first:
+      213: 5709795697652724383
+    second: LabCoat2_4
+  - first:
+      213: 5158766919603357548
+    second: LabCoat2_5
+  - first:
+      213: -3754343937159769870
+    second: LabCoat2_6
+  - first:
+      213: -5660106564965525622
+    second: LabCoat2_7
+  - first:
+      213: 3614071795664372102
+    second: LabCoat2_8
+  - first:
+      213: 5689814988739680790
+    second: LabCoat2_9
+  - first:
+      213: 6459355370990892684
+    second: LabCoat2_10
+  - first:
+      213: 4715352149333268588
+    second: LabCoat2_11
+  - first:
+      213: -3111400629030195160
+    second: LabCoat2_12
+  - first:
+      213: 2294901910657406604
+    second: LabCoat2_13
+  - first:
+      213: 9097698872152466325
+    second: LabCoat2_14
+  - first:
+      213: 9083336515281537282
+    second: LabCoat2_15
+  - first:
+      213: -4467322634389043501
+    second: LabCoat2_16
+  - first:
+      213: -7444766508247665446
+    second: LabCoat2_17
+  - first:
+      213: 4270555267368816994
+    second: LabCoat2_18
+  - first:
+      213: 8379882112034937538
+    second: LabCoat2_19
+  - first:
+      213: -1783118062882527718
+    second: LabCoat2_20
+  - first:
+      213: -131847398382113652
+    second: LabCoat2_21
+  - first:
+      213: -8506406954488138873
+    second: LabCoat2_22
+  - first:
+      213: -6695169285644595058
+    second: LabCoat2_23
+  - first:
+      213: 2046684738270498789
+    second: LabCoat2_24
+  - first:
+      213: -7017599902032281424
+    second: LabCoat2_25
+  - first:
+      213: 4820514797043227869
+    second: LabCoat2_26
+  - first:
+      213: 6537036376314969410
+    second: LabCoat2_27
+  - first:
+      213: 4481220125332866962
+    second: LabCoat2_28
+  - first:
+      213: -6661740951655700560
+    second: LabCoat2_29
+  - first:
+      213: 2061350696978877632
+    second: LabCoat2_30
+  - first:
+      213: 8428875484147690721
+    second: LabCoat2_31
+  - first:
+      213: 4366428926391858998
+    second: LabCoat2_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LabCoat2_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 6
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6513c024e6e69ac40800000000000000
+      internalID: 5524067837780177238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 6
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d500dc31dced33ed0800000000000000
+      internalID: -2435358001095442339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 6
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23f5834402adee10800000000000000
+      internalID: 2228615529814684462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 6
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07da8acbda0664840800000000000000
+      internalID: 5207956318411337072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 5
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92f4aa6fe44d3f40800000000000000
+      internalID: 5709795697652724383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 6
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c678ef95e2f979740800000000000000
+      internalID: 5158766919603357548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 5
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f053fc9414e5ebc0800000000000000
+      internalID: -3754343937159769870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 6
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a879f5451134371b0800000000000000
+      internalID: -5660106564965525622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_8
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 6
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68145556623c72230800000000000000
+      internalID: 3614071795664372102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_9
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 6
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a9589169846fe40800000000000000
+      internalID: 5689814988739680790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_10
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 6
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c867ced9c7d34a950800000000000000
+      internalID: 6459355370990892684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 5
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6852ebfbcb407140800000000000000
+      internalID: 4715352149333268588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_12
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 6
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8207ab0ec9512d4d0800000000000000
+      internalID: -3111400629030195160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_13
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 6
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86991bf02129df10800000000000000
+      internalID: 2294901910657406604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_14
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 5
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593ae1c2ce4814e70800000000000000
+      internalID: 9097698872152466325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_15
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 5
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209c0b06f6e7e0e70800000000000000
+      internalID: 9083336515281537282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_16
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 6
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6cd20abb1e002c0800000000000000
+      internalID: -4467322634389043501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_17
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 6
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad43c280e40eea890800000000000000
+      internalID: -7444766508247665446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_18
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 6
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2611139a36f044b30800000000000000
+      internalID: 4270555267368816994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_19
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 5
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca1e73e1625b4470800000000000000
+      internalID: 8379882112034937538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_20
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 5
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16ed45b1971147e0800000000000000
+      internalID: -1783118062882527718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_21
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 4
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cefde5d759b2ef0800000000000000
+      internalID: -131847398382113652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_22
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 6
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78372da91fb23f980800000000000000
+      internalID: -8506406954488138873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_23
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 5
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e805c0ad10bf513a0800000000000000
+      internalID: -6695169285644595058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_24
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 6
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef83d7fce8476c10800000000000000
+      internalID: 2046684738270498789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_25
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0cc87e11a7c9e90800000000000000
+      internalID: -7017599902032281424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_26
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 6
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc9640faa8e5e240800000000000000
+      internalID: 4820514797043227869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_27
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 5
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d7f0613f738ba50800000000000000
+      internalID: 6537036376314969410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_28
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 5
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2970cc226fd703e30800000000000000
+      internalID: 4481220125332866962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_29
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 5
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7a3ee56edbc83a0800000000000000
+      internalID: -6661740951655700560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_30
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 6
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc0ee299836b9c10800000000000000
+      internalID: 2061350696978877632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_31
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 6
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec2f90489169f470800000000000000
+      internalID: 8428875484147690721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LabCoat2_32
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 6
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637b39669fba89c30800000000000000
+      internalID: 4366428926391858998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LabCoat2_0: 5524067837780177238
+      LabCoat2_1: -2435358001095442339
+      LabCoat2_10: 6459355370990892684
+      LabCoat2_11: 4715352149333268588
+      LabCoat2_12: -3111400629030195160
+      LabCoat2_13: 2294901910657406604
+      LabCoat2_14: 9097698872152466325
+      LabCoat2_15: 9083336515281537282
+      LabCoat2_16: -4467322634389043501
+      LabCoat2_17: -7444766508247665446
+      LabCoat2_18: 4270555267368816994
+      LabCoat2_19: 8379882112034937538
+      LabCoat2_2: 2228615529814684462
+      LabCoat2_20: -1783118062882527718
+      LabCoat2_21: -131847398382113652
+      LabCoat2_22: -8506406954488138873
+      LabCoat2_23: -6695169285644595058
+      LabCoat2_24: 2046684738270498789
+      LabCoat2_25: -7017599902032281424
+      LabCoat2_26: 4820514797043227869
+      LabCoat2_27: 6537036376314969410
+      LabCoat2_28: 4481220125332866962
+      LabCoat2_29: -6661740951655700560
+      LabCoat2_3: 5207956318411337072
+      LabCoat2_30: 2061350696978877632
+      LabCoat2_31: 8428875484147690721
+      LabCoat2_32: 4366428926391858998
+      LabCoat2_4: 5709795697652724383
+      LabCoat2_5: 5158766919603357548
+      LabCoat2_6: -3754343937159769870
+      LabCoat2_7: -5660106564965525622
+      LabCoat2_8: 3614071795664372102
+      LabCoat2_9: 5689814988739680790
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

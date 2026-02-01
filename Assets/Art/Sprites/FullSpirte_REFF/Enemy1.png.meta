@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: d1caece4d949c834cabb6d8352b8a0f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1477943653734837709
+    second: GuardFullNHNF_0
+  - first:
+      213: 2372509888974534668
+    second: GuardFullNHNF_1
+  - first:
+      213: 2310445245512222834
+    second: GuardFullNHNF_2
+  - first:
+      213: 1159456312816094216
+    second: GuardFullNHNF_3
+  - first:
+      213: -6216129258431319360
+    second: GuardFullNHNF_4
+  - first:
+      213: -1646607055122968348
+    second: GuardFullNHNF_5
+  - first:
+      213: -3096680427512264103
+    second: GuardFullNHNF_6
+  - first:
+      213: -708126986028346682
+    second: GuardFullNHNF_7
+  - first:
+      213: -1603215009090206017
+    second: GuardFullNHNF_8
+  - first:
+      213: 7503971486150429856
+    second: GuardFullNHNF_9
+  - first:
+      213: 1726060911255354906
+    second: GuardFullNHNF_10
+  - first:
+      213: 2873968288915999412
+    second: GuardFullNHNF_11
+  - first:
+      213: 4265693346916438177
+    second: GuardFullNHNF_12
+  - first:
+      213: -3179995009265138933
+    second: GuardFullNHNF_13
+  - first:
+      213: 3821181811428052649
+    second: GuardFullNHNF_14
+  - first:
+      213: 560990010247451111
+    second: GuardFullNHNF_15
+  - first:
+      213: -4832349240673427031
+    second: GuardFullNHNF_16
+  - first:
+      213: 2149963378709065371
+    second: GuardFullNHNF_17
+  - first:
+      213: 4892952388663698540
+    second: GuardFullNHNF_18
+  - first:
+      213: 1435479361971679915
+    second: GuardFullNHNF_19
+  - first:
+      213: 96520656724063392
+    second: GuardFullNHNF_20
+  - first:
+      213: -5790297285398034924
+    second: GuardFullNHNF_21
+  - first:
+      213: -5610452919128347386
+    second: GuardFullNHNF_22
+  - first:
+      213: -8921221079343447338
+    second: GuardFullNHNF_23
+  - first:
+      213: 1029240133479246602
+    second: GuardFullNHNF_24
+  - first:
+      213: 4657570721899455652
+    second: GuardFullNHNF_25
+  - first:
+      213: 6516351750111804386
+    second: GuardFullNHNF_26
+  - first:
+      213: -4720623307283425082
+    second: GuardFullNHNF_27
+  - first:
+      213: 1423476568358989663
+    second: GuardFullNHNF_28
+  - first:
+      213: 8674776882741360665
+    second: GuardFullNHNF_29
+  - first:
+      213: 8289856478862971202
+    second: GuardFullNHNF_30
+  - first:
+      213: 3154849079715342886
+    second: GuardFullNHNF_31
+  - first:
+      213: 1341904410660996054
+    second: GuardFullNHNF_32
+  - first:
+      213: -1033959868684508995
+    second: GuardFullNHNF_33
+  - first:
+      213: 6830375215309533407
+    second: GuardFullNHNF_34
+  - first:
+      213: 3334457294861146108
+    second: GuardFullNHNF_35
+  - first:
+      213: -7461694455273196030
+    second: GuardFullNHNF_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GuardFullNHNF_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd68ee2ce5b28410800000000000000
+      internalID: 1477943653734837709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08bd668c29dce020800000000000000
+      internalID: 2372509888974534668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2780fb3a5b9501020800000000000000
+      internalID: 2310445245512222834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cccf99f57371010800000000000000
+      internalID: 1159456312816094216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2f949bf5fdbb9a0800000000000000
+      internalID: -6216129258431319360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_5
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e05eb28b931629e0800000000000000
+      internalID: -1646607055122968348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_6
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a0a3fde816605d0800000000000000
+      internalID: -3096680427512264103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_7
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c299ed024a3c26f0800000000000000
+      internalID: -708126986028346682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_8
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb68a94817c30c9e0800000000000000
+      internalID: -1603215009090206017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_9
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 3
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac08a41f46732860800000000000000
+      internalID: 7503971486150429856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1eff04f04334f710800000000000000
+      internalID: 1726060911255354906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_11
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 3
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba439c8ee262e720800000000000000
+      internalID: 2873968288915999412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_12
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a093b79f79c23b30800000000000000
+      internalID: 4265693346916438177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_13
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b038c3d23636ed3d0800000000000000
+      internalID: -3179995009265138933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_14
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae4a5cac90970530800000000000000
+      internalID: 3821181811428052649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_15
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1975b217909c700800000000000000
+      internalID: 560990010247451111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_16
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1280fe7fb00fcb0800000000000000
+      internalID: -4832349240673427031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_17
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 3
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e6d0c4d4436dd10800000000000000
+      internalID: 2149963378709065371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_18
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 3
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64e235064247e340800000000000000
+      internalID: 4892952388663698540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_19
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2f9bccfd8dbe310800000000000000
+      internalID: 1435479361971679915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_20
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 3
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a47681a609e65100800000000000000
+      internalID: 96520656724063392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_21
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41601f71c4bb4afa0800000000000000
+      internalID: -5790297285398034924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_22
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d2d46abcaa322b0800000000000000
+      internalID: -5610452919128347386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_23
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 3
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2c10be1b4713480800000000000000
+      internalID: -8921221079343447338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_24
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 3
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b2b90c278984e00800000000000000
+      internalID: 1029240133479246602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_25
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4a31b05e303a040800000000000000
+      internalID: 4657570721899455652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_26
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 3
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebb8e0446bbe6a50800000000000000
+      internalID: 6516351750111804386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_27
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c811faec1afc7eb0800000000000000
+      internalID: -4720623307283425082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_28
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f2123a56431c310800000000000000
+      internalID: 1423476568358989663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_29
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918b1992d9ff26870800000000000000
+      internalID: 8674776882741360665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_30
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 3
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2411995cb8c7b0370800000000000000
+      internalID: 8289856478862971202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_31
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62aa66cd58648cb20800000000000000
+      internalID: 3154849079715342886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_32
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 3
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d38af7a3f66f9210800000000000000
+      internalID: 1341904410660996054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_33
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 3
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0ec034af2a6a1f0800000000000000
+      internalID: -1033959868684508995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_34
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 3
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd03827c11e5ace50800000000000000
+      internalID: 6830375215309533407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_35
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 3
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf798e23e3f564e20800000000000000
+      internalID: 3334457294861146108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardFullNHNF_36
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 3
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20670fa3d6cb27890800000000000000
+      internalID: -7461694455273196030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GuardFullNHNF_0: 1477943653734837709
+      GuardFullNHNF_1: 2372509888974534668
+      GuardFullNHNF_10: 1726060911255354906
+      GuardFullNHNF_11: 2873968288915999412
+      GuardFullNHNF_12: 4265693346916438177
+      GuardFullNHNF_13: -3179995009265138933
+      GuardFullNHNF_14: 3821181811428052649
+      GuardFullNHNF_15: 560990010247451111
+      GuardFullNHNF_16: -4832349240673427031
+      GuardFullNHNF_17: 2149963378709065371
+      GuardFullNHNF_18: 4892952388663698540
+      GuardFullNHNF_19: 1435479361971679915
+      GuardFullNHNF_2: 2310445245512222834
+      GuardFullNHNF_20: 96520656724063392
+      GuardFullNHNF_21: -5790297285398034924
+      GuardFullNHNF_22: -5610452919128347386
+      GuardFullNHNF_23: -8921221079343447338
+      GuardFullNHNF_24: 1029240133479246602
+      GuardFullNHNF_25: 4657570721899455652
+      GuardFullNHNF_26: 6516351750111804386
+      GuardFullNHNF_27: -4720623307283425082
+      GuardFullNHNF_28: 1423476568358989663
+      GuardFullNHNF_29: 8674776882741360665
+      GuardFullNHNF_3: 1159456312816094216
+      GuardFullNHNF_30: 8289856478862971202
+      GuardFullNHNF_31: 3154849079715342886
+      GuardFullNHNF_32: 1341904410660996054
+      GuardFullNHNF_33: -1033959868684508995
+      GuardFullNHNF_34: 6830375215309533407
+      GuardFullNHNF_35: 3334457294861146108
+      GuardFullNHNF_36: -7461694455273196030
+      GuardFullNHNF_4: -6216129258431319360
+      GuardFullNHNF_5: -1646607055122968348
+      GuardFullNHNF_6: -3096680427512264103
+      GuardFullNHNF_7: -708126986028346682
+      GuardFullNHNF_8: -1603215009090206017
+      GuardFullNHNF_9: 7503971486150429856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
