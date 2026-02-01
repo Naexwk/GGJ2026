@@ -1,40 +1,69 @@
+using System.Collections.Generic;
+using Unity.Cinemachine;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
+    //CinemachineCamera cam;
     public bool isSus;
     private Rigidbody2D rb;
     [SerializeField] private float moveSpeed = 5f;
     private Vector2 movementInput;
     [SerializeField] private Animator animator;
+    Character vesselCharacter;
     [SerializeField] private bool isMoving;
     [SerializeField] private bool isPossesing;
     [SerializeField] private bool isInteracting;
 
+    List<GameObject> interactables;
+    List<GameObject> possessables;
+
+    GameObject possessionTarget;
+
+    [SerializeField] GameObject vessel;
+
+    void Awake()
+    {
+        //cam = GameObject.FindGameObjectWithTag("CinemachineCamera").GetComponent<CinemachineCamera>();
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is createdz
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        GameManager.Instance.StartGame(); // Start the game via GameManager :D
-        animator = GetComponentInChildren<Animator>();
+        interactables = new List<GameObject>();
+        possessables = new List<GameObject>();
+        
+        //cam.Target.TrackingTarget = vessel.transform;
+
+        //GameManager.Instance.StartGame(); // Start the game via GameManager :D
+        vesselCharacter = vessel.GetComponent<Character>();
+        rb = vessel.GetComponent<Rigidbody2D>();
+        animator = vessel.GetComponentInChildren<Animator>();
+
+        vessel.GetComponent<NavMeshAgent>().enabled = false;
+        vesselCharacter.enabled = false;
     }
 
     // Update is called once per frame
     void Update() // Handle inputs and animations in frame time
     {
+        transform.position = vessel.transform.position;
         GetMovementInputs(); //Get player inputs each frame
         Animate(); // Handle animations for movement
                    
         if (Input.GetKeyDown(KeyCode.E)) // Posses others with the E key :D
         {
             DoPossesion();
-            
         }
 
         if (Input.GetKeyDown(KeyCode.Q)) // Logic to interact with Q :D
         {
-            DoInteraction();
+            //DoInteraction();
         }
+
+        MaskFX();
     }
 
     private void LateUpdate() // Apply movement after all Updates are done
@@ -84,19 +113,77 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isMoving", isMoving);
     }
 
-    void DoPossesion() 
+    void MaskFX ()
     {
         
-        Debug.Log("Player has attempted to posses an entity!");
+    }
+
+    void DoPossesion() 
+    {
+        vessel.GetComponent<NavMeshAgent>().enabled = true;
+        vessel.GetComponent<IPossessable>().Stun();
+        vessel.GetComponent<NavMeshAgent>().enabled = true;
+        vesselCharacter.enabled = true;
+
+        vessel = possessionTarget;
+        //cam.Target.TrackingTarget = vessel.transform;
+
+        rb = vessel.GetComponent<Rigidbody2D>();
+        animator = vessel.GetComponentInChildren<Animator>();
+        vesselCharacter = vessel.GetComponent<Character>();
+
+        vessel.GetComponent<NavMeshAgent>().enabled = false;
+        vesselCharacter.enabled = false;
+        
+        Debug.Log("Player has attempted to possess an entity!");
         AudioManager.Instance.PlaySFX(1); // Play possesion sound
         animator.SetTrigger("isPossesing");
     }
 
-    void DoInteraction() 
+    /*void DoInteraction() 
     {
-        
+        float minDistance = float.MaxValue;
+        GameObject target = null;
+        foreach (var interactable in interactables)
+        {
+            float dist = Vector3.Distance(gameObject.transform.position, interactable.transform.position);
+            if (dist < minDistance)
+            {
+                target = interactable;
+                minDistance = dist;
+            }
+        }
+
+        target?.GetComponent<IInteractable>()?.Interact();
+
         Debug.Log("Player has attempted to interact with an object!");
         AudioManager.Instance.PlaySFX(2); // Play interaction sound
         animator.SetTrigger("isInteracting");
+    }*/
+
+    /*void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("Character"))
+        {
+            possessables.Add(other.gameObject);
+        } 
+        else if(other.CompareTag("Interactable"))
+        {
+            interactables.Add(other.GetComponent<GameObject>());
+        }
     }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.CompareTag("Character"))
+        {
+            if (possessables.Contains(other.gameObject))
+            possessables.Remove(other.gameObject);
+        } 
+        else if(other.CompareTag("Interactable"))
+        {
+            if (interactables.Contains(other.gameObject))
+            interactables.Remove(other.gameObject);
+        }
+    }*/
 }

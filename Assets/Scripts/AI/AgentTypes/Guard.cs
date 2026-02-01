@@ -2,9 +2,8 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
-public class Guard : MonoBehaviour
+public class Guard : Character
 {    
-    [SerializeField] Transform[] pois;
     StateMachine stateMachine;
     // States
     WanderState wanderState;
@@ -14,7 +13,6 @@ public class Guard : MonoBehaviour
     AlertState alertState;
     StunState stunState;
 
-    bool stun = false;
 
     void Start()
     {
@@ -51,17 +49,12 @@ public class Guard : MonoBehaviour
         stateMachine.AddTransition(wanderState, waitState, new FuncPredicate(() => wanderState.destinationReached));
         stateMachine.AddTransition(waitState, wanderState, new FuncPredicate(() => waitState.hasWaited));
 
-        workState.SetPOIs(pois);
+        workState.SetPOIs(AIManager.instance.guardPois);
     }
 
     void FixedUpdate()
     {
         stateMachine.FixedUpdate();
         if (stun) stun = false;
-    }
-
-    public void Stun()
-    {
-        stun = true;
     }
 }

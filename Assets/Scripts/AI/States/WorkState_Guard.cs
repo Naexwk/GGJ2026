@@ -5,8 +5,6 @@ public class WorkState_Guard : BaseState
 {
     float distanceThreshold = 0.5f;
     float restTime = 30f;
-    float workTime = 30f;
-    float interactTime = 5f;
     public bool isGettingTired = false;
     public bool isTired = false;
     public bool hasRested = true;
