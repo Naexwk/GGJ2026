@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Wall
+  - Interactable
+  - Character
+  - CinemachineCamera
+  - GuardPOI
+  - StaffPOI
   layers:
   - Default
   - TransparentFX

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6815913837789500136}
   - component: {fileID: 4226326340489539188}
   - component: {fileID: 5499675372466128236}
+  - component: {fileID: 3396616385007884626}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -27,14 +28,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735354552869318857}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.71917605, w: 0.6948279}
-  m_LocalPosition: {x: -0.37, y: 0.38, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4731616626621694800}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -91.973}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!58 &6815913837789500136
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -69,8 +70,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.021075306, y: -0.0000000025123719}
-  m_Radius: 0.40937582
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.4
 --- !u!50 &4226326340489539188
 Rigidbody2D:
   serializedVersion: 5
@@ -113,6 +114,45 @@ MonoBehaviour:
   isSus: 0
   moveSpeed: 2
   animator: {fileID: 4183276085166480907}
+  isMoving: 0
+  isPossesing: 0
+  isInteracting: 0
+--- !u!58 &3396616385007884626
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735354552869318857}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 1
 --- !u!1 &4501090649585267393
 GameObject:
   m_ObjectHideFlags: 0

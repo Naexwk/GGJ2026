@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
-public class JohnEgypt : MonoBehaviour
+public class JohnEgypt : Character
 {    
     [SerializeField] Transform[] pois;
     StateMachine stateMachine;
@@ -13,7 +13,6 @@ public class JohnEgypt : MonoBehaviour
     AlertState alertState;
     StunState stunState;
 
-    bool stun = false;
 
     void Start()
     {
@@ -51,10 +50,5 @@ public class JohnEgypt : MonoBehaviour
     {
         stateMachine.FixedUpdate();
         if (stun) stun = false;
-    }
-
-    public void Stun()
-    {
-        stun = true;
     }
 }

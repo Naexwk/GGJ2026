@@ -2,9 +2,8 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
-public class Staff : MonoBehaviour
+public class Staff : Character
 {    
-    [SerializeField] Transform[] pois;
     StateMachine stateMachine;
     // States
     WanderState wanderState;
@@ -13,8 +12,6 @@ public class Staff : MonoBehaviour
     RunState runState;
     AlertState alertState;
     StunState stunState;
-
-    bool stun = false;
 
     void Start()
     {
@@ -51,17 +48,12 @@ public class Staff : MonoBehaviour
         stateMachine.AddTransition(wanderState, waitState, new FuncPredicate(() => wanderState.destinationReached));
         stateMachine.AddTransition(waitState, wanderState, new FuncPredicate(() => waitState.hasWaited));
 
-        workState.SetPOIs(pois);
+        workState.SetPOIs(AIManager.instance.staffPois);
     }
 
     void FixedUpdate()
     {
         stateMachine.FixedUpdate();
         if (stun) stun = false;
-    }
-
-    public void Stun()
-    {
-        stun = true;
     }
 }
