@@ -9,14 +9,14 @@ public class Guard : MonoBehaviour
     // States
     WanderState wanderState;
     WaitState waitState;
-    GuardWorkState workState;
+    WorkState_Guard workState;
 
     void Start()
     {
         // Declare states
         wanderState = new WanderState(gameObject);
         waitState = new WaitState(gameObject);
-        workState = new GuardWorkState(gameObject);
+        workState = new WorkState_Guard(gameObject);
 
         stateMachine = new StateMachine(waitState);
         

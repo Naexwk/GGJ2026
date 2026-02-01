@@ -1,15 +1,16 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 
-public class WaitState : BaseState
+public class AlertState : BaseState
 {
     float waitTime = 2f;
     public bool hasWaited = false;
-    public WaitState(GameObject go) : base(go) {}
+    public AlertState(GameObject go) : base(go) {}
 
     public override void OnEnter()
     {
         mono.StartCoroutine(Wait());
+        Wait();
     }
     
     IEnumerator Wait()

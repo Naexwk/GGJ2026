@@ -6,7 +6,6 @@ public class WanderState : BaseState
     float wanderDistance = 5f;
     float distanceThreshold = 0.5f;
     Vector2 destination;
-    //bool isWaiting;
     public bool destinationReached = false;
     public WanderState(GameObject go) : base(go) {}
 
@@ -17,8 +16,6 @@ public class WanderState : BaseState
 
     public override void FixedUpdate()
     {
-        //if (destination == null) RollDestination();
-        //else if (Vector2.Distance(go.transform.position, destination) <= distanceThreshold) destinationReached = true;
         if (Vector2.Distance(go.transform.position, destination) <= distanceThreshold) destinationReached = true;
     }
 
