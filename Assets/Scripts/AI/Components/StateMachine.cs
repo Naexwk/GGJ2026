@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class StateMachine
 {
@@ -33,6 +34,8 @@ public class StateMachine
     void ChangeState(IState state)
     {
         if (state == current.State) return;
+
+        Debug.Log($"Changing state to {state}");
 
         var previousState = current.State;
         var nextState = nodes[state.GetType()].State;

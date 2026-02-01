@@ -46,6 +46,7 @@ public class WorkState_Guard : BaseState
     public override void OnExit()
     {
         hasRested = false;
+        mono.StopAllCoroutines();
         mono.StartCoroutine(recordRestTime());
     }
 

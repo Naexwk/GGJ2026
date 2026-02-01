@@ -52,6 +52,7 @@ public class WorkState_MrEgypt : BaseState
     public override void OnExit()
     {
         hasRested = false;
+        mono.StopAllCoroutines();
         mono.StartCoroutine(recordRestTime());
     }
 

@@ -147,9 +147,12 @@ public class PlayerController : MonoBehaviour
     void DoPossesion() 
     {
         if (possessionTarget == null) return;
+        vessel.GetComponent<NavMeshAgent>().enabled = true;
         vesselCharacter.enabled = true;
         vesselCharacter.Stun();
-        vessel.GetComponent<NavMeshAgent>().enabled = true;
+        
+
+        rb.linearVelocity = Vector3.zero;
 
         vessel = possessionTarget;
 
@@ -184,17 +187,14 @@ public class PlayerController : MonoBehaviour
 
         target?.GetComponent<IInteractable>()?.Interact();
 
-        Debug.Log("Player has attempted to interact with an object!");
         AudioManager.Instance.PlaySFX(2); // Play interaction sound
         animator.SetTrigger("isInteracting");
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Entered");
         if(other.CompareTag("Character"))
         {
-            Debug.Log("found character");
             possessables.Add(other.gameObject);
         } 
         else if(other.CompareTag("Interactable"))
