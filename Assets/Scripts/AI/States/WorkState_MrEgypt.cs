@@ -1,13 +1,12 @@
 using System.Collections;
-using NUnit.Framework;
 using UnityEngine;
 
-public class WorkState_Staff : BaseState
+public class WorkState_MrEgypt : BaseState
 {
     float distanceThreshold = 0.5f;
     float restTime = 15f;
-    float workTime = 30f;
-    float interactTime = 5f;
+    float workTime = 1f;
+    float interactTime = 30f;
     public bool isGettingTired = false;
     public bool isTired = false;
     public bool hasRested = true;
@@ -16,7 +15,7 @@ public class WorkState_Staff : BaseState
     // Points of interest guys, not whatever french word
     public Transform[] pois;
     Vector3 destination;
-    public WorkState_Staff (GameObject go) : base(go) {}
+    public WorkState_MrEgypt (GameObject go) : base(go) {}
 
     public override void OnEnter()
     {
@@ -35,7 +34,7 @@ public class WorkState_Staff : BaseState
         if (destination == Vector3.zero) GetNewDestination();
         else if (Vector2.Distance(go.transform.position, destination) < distanceThreshold)
         {
-             mono.StartCoroutine(recordInteractTime());
+            mono.StartCoroutine(recordInteractTime());
         }
     }
 

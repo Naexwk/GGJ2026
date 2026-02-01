@@ -2,14 +2,13 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
-public class Staff : MonoBehaviour
+public class Guest : MonoBehaviour
 {    
     [SerializeField] Transform[] pois;
     StateMachine stateMachine;
     // States
     WanderState wanderState;
     WaitState waitState;
-    WorkState_Staff workState;
     RunState runState;
     AlertState alertState;
     StunState stunState;
@@ -24,7 +23,6 @@ public class Staff : MonoBehaviour
         stunState = new StunState(gameObject);
         wanderState = new WanderState(gameObject);
         waitState = new WaitState(gameObject);
-        workState = new WorkState_Staff(gameObject);
         runState = new RunState(gameObject);
         alertState = new AlertState(gameObject);
 
@@ -43,15 +41,10 @@ public class Staff : MonoBehaviour
         stateMachine.AddTransition(runState, alertState, new FuncPredicate(() => !runState.observer.detectedPlayer));
 
         stateMachine.AddTransition(alertState, waitState, new FuncPredicate(() => !alertState.observer.isAlert));
-        // From wait to work and viceversa
-        stateMachine.AddTransition(waitState, workState, new FuncPredicate(() => workState.hasRested));
-        stateMachine.AddTransition(workState, waitState, new FuncPredicate(() => workState.isTired));
 
         // From wander to wait and viceversa
         stateMachine.AddTransition(wanderState, waitState, new FuncPredicate(() => wanderState.destinationReached));
         stateMachine.AddTransition(waitState, wanderState, new FuncPredicate(() => waitState.hasWaited));
-
-        workState.SetPOIs(pois);
     }
 
     void FixedUpdate()

@@ -3,42 +3,52 @@ using UnityEngine;
 
 public class WorkState_Guard : BaseState
 {
-    float restTime = 15f;
-    float workTime = 5f;
+    float distanceThreshold = 0.5f;
+    float restTime = 30f;
+    float workTime = 30f;
+    float interactTime = 5f;
+    public bool isGettingTired = false;
     public bool isTired = false;
     public bool hasRested = true;
 
+    // Points of interest guys, not whatever french word
+    public Transform[] pois;
+    Vector3 destination;
     public WorkState_Guard (GameObject go) : base(go) {}
 
     public override void OnEnter()
     {
+        destination = Vector3.zero;
+        isGettingTired = false;
         isTired = false;
         hasRested = false;
-        mono.StartCoroutine(recordWorkTime());
-        Work();
     }
 
     public override void FixedUpdate()
     {
-        // Work();
+        if (isTired) return;
+        if (destination == Vector3.zero) GetNewDestination();
+        else if (Vector2.Distance(go.transform.position, destination) < distanceThreshold)
+        {
+            isTired = true;
+        }
     }
 
-    void Work()
+    public void GetNewDestination()
     {
-        // TODO
-        agent.SetDestination(Vector3.zero);
+        destination = pois[Random.Range(0, pois.Length)].position;
+        agent.SetDestination(destination);
+    }
+
+    public void SetPOIs (Transform[] _pois)
+    {
+        pois = _pois;
     }
 
     public override void OnExit()
     {
         hasRested = false;
         mono.StartCoroutine(recordRestTime());
-    }
-
-    IEnumerator recordWorkTime ()
-    {
-        yield return new WaitForSeconds(workTime);
-        isTired = true;
     }
 
     IEnumerator recordRestTime ()
