@@ -53,8 +53,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: fc6b5c61c48d16244b6db05b6de45855, type: 3}
   - {fileID: 8300000, guid: 1fc7c87e087577e4d84b9b2e7bf63157, type: 3}
   Music_Clips:
+  - {fileID: 8300000, guid: 8076525af169cd542a5d1328d1d2e820, type: 3}
   - {fileID: 8300000, guid: be2298dbcfcfe1848b617362bf565516, type: 3}
-  - {fileID: 8300000, guid: 6acf87c6fbb2ac943883c17e19073e4e, type: 3}
   SFX_AudioSource: {fileID: 6874736857468960750}
   Music_AudioSource: {fileID: 3923215339931535359}
 --- !u!82 &6874736857468960750

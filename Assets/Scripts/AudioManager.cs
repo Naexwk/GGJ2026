@@ -9,7 +9,7 @@ public class AudioManager : MonoBehaviour
         "3 -> Death" +
         "4 -> PLACEHOLDER")]
     [SerializeField] AudioClip[] SFX_Clips;
-    [Tooltip("List containing all Music ")]
+    [Tooltip("Asign the game track music to the last Audiosource and make sure to have loop ON")]
     [SerializeField] AudioClip[] Music_Clips;
     [SerializeField] AudioSource SFX_AudioSource;
     [SerializeField] AudioSource Music_AudioSource;
@@ -42,12 +42,17 @@ public class AudioManager : MonoBehaviour
 
     public void PlayMusic(int MusicClipID)
     {
-        if (MusicClipID > Music_Clips.Length - 1)
+        /*if (MusicClipID > Music_Clips.Length - 1)
         {
             Debug.LogAssertion("AudioClipID is out of range of the audioClips array.");
         }
         //Debug.Log($"Playing sound with the following index: {MusicClipID}");
         Music_AudioSource.Stop();
-        Music_AudioSource.PlayOneShot(Music_Clips[MusicClipID]);
+        Music_AudioSource.PlayOneShot(Music_Clips[MusicClipID]);*/
+    }
+
+    public void StopMusic()
+    {
+        Music_AudioSource.Stop();
     }
 }

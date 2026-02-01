@@ -264,18 +264,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1349903726107759241, guid: b2db44666ffa3a04887a6f5f486cc1d6, type: 3}
-      propertyPath: m_labelHash
-      value: 1.4230388e-10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1349903726107759241, guid: b2db44666ffa3a04887a6f5f486cc1d6, type: 3}
-      propertyPath: m_SpriteHash
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1349903726107759241, guid: b2db44666ffa3a04887a6f5f486cc1d6, type: 3}
-      propertyPath: m_CategoryHash
-      value: 1.8625731e-11
-      objectReference: {fileID: 0}
     - target: {fileID: 2189571069718164530, guid: b2db44666ffa3a04887a6f5f486cc1d6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.24155754
@@ -316,14 +304,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2504723778605299801, guid: b2db44666ffa3a04887a6f5f486cc1d6, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 5456340448262686802, guid: 18b270e9ccf088f4cba5bb2f4ecdcd76, type: 3}
-    - target: {fileID: 6897178435337762173, guid: b2db44666ffa3a04887a6f5f486cc1d6, type: 3}
-      propertyPath: m_SpriteLibraryAsset
-      value: 
-      objectReference: {fileID: 7108339969198208228, guid: af075b29235fb3f4caadf902dbbdbb0b, type: 3}
     - target: {fileID: 7043604600788026787, guid: b2db44666ffa3a04887a6f5f486cc1d6, type: 3}
       propertyPath: m_Name
       value: NPCs

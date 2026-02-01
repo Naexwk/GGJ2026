@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainTitle.unity
     guid: 43623d18192752640b1141bc04d6f580
   - enabled: 1
+    path: Assets/Scenes/COPYMainGameplay.unity
+    guid: 27a92235c30031a41b7d5be0ac9ca274
+  - enabled: 1
     path: Assets/Scenes/MainGameplay.unity
     guid: 28d6284b0d4bfc94b96321e86ae4114c
   m_configObjects:

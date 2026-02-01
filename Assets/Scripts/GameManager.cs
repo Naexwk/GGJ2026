@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogError("PlayerController not found in the scene.");
         }
+        
 
     }
 
@@ -35,7 +36,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Game Started!");
         // Additional game start logic here
-        AudioManager.Instance.PlayMusic(0); // Play background music
+        //AudioManager.Instance.PlayMusic(1); // Play background music
     }
 
     public void EndGame()
@@ -43,7 +44,19 @@ public class GameManager : MonoBehaviour
         Debug.Log("Game Ended!");
         // Additional game end logic here
         playerController.gameObject.SetActive(false); // Deactivate player
-        AudioManager.Instance.PlayMusic(1); // Play game over sound
+        //AudioManager.Instance.PlayMusic(1); // Play game over sound
 
+    }
+
+    private void StartMusicBasedOnscene() 
+    {
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex == 0) 
+        {
+            AudioManager.Instance.PlayMusic(0); // Play menu music
+        }
+        else 
+        {
+            AudioManager.Instance.PlayMusic(1); // Play game music
+        }
     }
 }
