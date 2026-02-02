@@ -31,11 +31,15 @@ public class WorkState_Staff : BaseState
     public override void FixedUpdate()
     {
         if (isTired) return;
-        if (isInteracting) return;
+        if (isInteracting)
+        {
+            animator.SetTrigger("isInteracting");
+            return;
+        }
         if (destination == Vector3.zero) GetNewDestination();
         else if (Vector2.Distance(go.transform.position, destination) < distanceThreshold)
         {
-             mono.StartCoroutine(recordInteractTime());
+            mono.StartCoroutine(recordInteractTime());
         }
     }
 
@@ -71,6 +75,7 @@ public class WorkState_Staff : BaseState
 
     IEnumerator recordInteractTime ()
     {
+        
         observer.enabled = false;
         isInteracting = true;
         yield return new WaitForSeconds(interactTime);

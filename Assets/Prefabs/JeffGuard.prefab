@@ -136,13 +136,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6926196963313988753}
   - component: {fileID: 7749159827478533474}
-  - component: {fileID: 9099204473096593831}
   - component: {fileID: 791023988108337880}
   - component: {fileID: 7530880181401228}
   - component: {fileID: 6452812452722611131}
-  - component: {fileID: 7203516324045213762}
+  - component: {fileID: 5864082784671018122}
   m_Layer: 0
-  m_Name: JakeStaff
+  m_Name: JeffGuard
   m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,18 +186,6 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &9099204473096593831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2591897888428969730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af1d2b04b1f408046b548b2e1ef8c0fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Staff
 --- !u!114 &791023988108337880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,7 +268,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!114 &7203516324045213762
+--- !u!114 &5864082784671018122
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -290,9 +277,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2591897888428969730}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7218d09066f0fc4e8f3617d5dd942ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f9428eb08295a64897949ab6ce35d9c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ColorPicker
+  m_EditorClassIdentifier: Assembly-CSharp::Guard
 --- !u!1001 &1497760776310053036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -341,10 +328,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6897178435337762173, guid: b2db44666ffa3a04887a6f5f486cc1d6, type: 3}
-      propertyPath: m_SpriteLibraryAsset
-      value: 
-      objectReference: {fileID: 7108339969198208228, guid: f7f0dc7e034b91d419149243f88752dc, type: 3}
     - target: {fileID: 7043604600788026787, guid: b2db44666ffa3a04887a6f5f486cc1d6, type: 3}
       propertyPath: m_Name
       value: NPCs

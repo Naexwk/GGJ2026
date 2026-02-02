@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -53,19 +54,24 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update() // Handle inputs and animations in frame time
     {
+        vessel.transform.rotation = Quaternion.identity;
         transform.position = vessel.transform.position;
-        GetMovementInputs(); //Get player inputs each frame
+        if(!isPossesing) GetMovementInputs(); //Get player inputs each frame
+        else movementInput = Vector2.zero;
         Animate(); // Handle animations for movement
                    
         if (Input.GetKeyDown(KeyCode.E)) // Posses others with the E key :D
         {
-            DoPossesion();
+            
+            StartCoroutine(RecordPossessTime());
         }
 
         if (Input.GetKeyDown(KeyCode.Q)) // Logic to interact with Q :D
         {
             DoInteraction();
         }
+
+        if (isPossesing) animator.SetTrigger("isPossesing");
 
         MaskFX();
     }
@@ -151,7 +157,6 @@ public class PlayerController : MonoBehaviour
         vesselCharacter.enabled = true;
         vesselCharacter.Stun();
         
-
         rb.linearVelocity = Vector3.zero;
 
         vessel = possessionTarget;
@@ -168,7 +173,6 @@ public class PlayerController : MonoBehaviour
         coll.enabled = true;
         
         AudioManager.Instance.PlaySFX(1); // Play possesion sound
-        animator.SetTrigger("isPossesing");
     }
 
     void DoInteraction() 
@@ -215,5 +219,13 @@ public class PlayerController : MonoBehaviour
             if (interactables.Contains(other.gameObject))
             interactables.Remove(other.gameObject);
         }
+    }
+
+    IEnumerator RecordPossessTime ()
+    {
+        isPossesing = true;
+        yield return new WaitForSeconds(0.5f);
+        isPossesing = false;
+        DoPossesion();
     }
 }

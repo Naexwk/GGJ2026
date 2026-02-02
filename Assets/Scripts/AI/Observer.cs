@@ -26,12 +26,12 @@ public class Observer : MonoBehaviour
     {
         float distance = Vector2.Distance(player.transform.position, transform.position);
 
-        /*if (player.isSus && !Physics.Raycast(player.transform.position, transform.position, distance, obstacleLayerMask))
+        if (player.isSus && !Physics.Raycast(player.transform.position, transform.position, distance, obstacleLayerMask))
             currentDetectionValue += Time.deltaTime;
         else
             currentDetectionValue -= Time.deltaTime / 2f;
 
-        Mathf.Clamp(currentDetectionValue, 0f, maxDetectionValue);*/
+        Mathf.Clamp(currentDetectionValue, 0f, maxDetectionValue);
 
         if (currentDetectionValue > detectionTime)
         {

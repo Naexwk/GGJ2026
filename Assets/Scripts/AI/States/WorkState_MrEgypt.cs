@@ -30,7 +30,11 @@ public class WorkState_MrEgypt : BaseState
     public override void FixedUpdate()
     {
         if (isTired) return;
-        if (isInteracting) return;
+        if (isInteracting)
+        {
+            animator.SetTrigger("isInteracting");
+            return;
+        }
         if (destination == Vector3.zero) GetNewDestination();
         else if (Vector2.Distance(go.transform.position, destination) < distanceThreshold)
         {
@@ -70,6 +74,7 @@ public class WorkState_MrEgypt : BaseState
 
     IEnumerator recordInteractTime ()
     {
+        
         observer.enabled = false;
         isInteracting = true;
         yield return new WaitForSeconds(interactTime);

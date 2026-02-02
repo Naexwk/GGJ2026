@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StateMachine
 {
-    StateNode current;
+    public StateNode current;
     IState defaultState;
     Dictionary<Type, StateNode> nodes = new();
     HashSet<ITransition> anyTransitions = new();
@@ -34,8 +34,6 @@ public class StateMachine
     void ChangeState(IState state)
     {
         if (state == current.State) return;
-
-        Debug.Log($"Changing state to {state}");
 
         var previousState = current.State;
         var nextState = nodes[state.GetType()].State;
