@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] GameObject vessel;
     //[SerializeField] GameObject nextVessel;
-    [SerializeField] GameObject fx;
+    [SerializeField] GameObject pointer;
     Collider2D coll;
 
     void Awake()
@@ -141,11 +141,11 @@ public class PlayerController : MonoBehaviour
 
         if (possessionTarget != null)
         {
-            fx.SetActive(true);
-            fx.transform.position = possessionTarget.transform.position;
+            pointer.SetActive(true);
+            pointer.transform.position = possessionTarget.transform.position;
         } else
         {
-            fx.SetActive(false);
+            pointer.SetActive(false);
         }
 
     }

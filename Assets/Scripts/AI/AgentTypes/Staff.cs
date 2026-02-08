@@ -40,6 +40,7 @@ public class Staff : Character
         stateMachine.AddTransition(runState, alertState, new FuncPredicate(() => !runState.observer.detectedPlayer));
 
         stateMachine.AddTransition(alertState, waitState, new FuncPredicate(() => !alertState.observer.isAlert));
+
         // From wait to work and viceversa
         stateMachine.AddTransition(waitState, workState, new FuncPredicate(() => workState.hasRested));
         stateMachine.AddTransition(workState, waitState, new FuncPredicate(() => workState.isTired));
