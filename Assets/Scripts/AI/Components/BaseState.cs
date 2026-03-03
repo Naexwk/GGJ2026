@@ -1,5 +1,9 @@
 using UnityEngine;
 using UnityEngine.AI;
+
+// Base state: does nothing but get all needed components for functionality
+// It is NOT a MonoBehaviour, which means inherited functions won't work, like GameObject.Destroy()
+// If those functions are needed, make sure to call the mono variable first
 public abstract class BaseState : IState
 {
     protected readonly GameObject go;

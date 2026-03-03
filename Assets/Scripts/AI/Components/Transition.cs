@@ -1,3 +1,5 @@
+// Transition class
+// Stores the state we are pointing to and the condition we need to meet to transition into it
 public class Transition : ITransition
 {
     public IState to {get;}

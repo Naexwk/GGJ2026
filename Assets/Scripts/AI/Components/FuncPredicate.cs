@@ -1,5 +1,7 @@
 using System;
 
+// Predicate class
+//"Converts" booleans into evaluation functions
 public class FuncPredicate : IPredicate
 {
     readonly Func<bool> func;

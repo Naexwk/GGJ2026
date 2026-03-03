@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+// State node class
+// Stores a state and the transitions to other states and exit their conditions
 public class StateNode
 {
     public IState State {get;}
